@@ -1,0 +1,3641 @@
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS and IE text size adjust after device orientation change,
+ *    without disabling user zoom.
+ */
+/* line 9, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_normalize.scss */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+  box-sizing: border-box;
+}
+
+/* line 15, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_normalize.scss */
+* {
+  box-sizing: inherit;
+}
+
+/**
+ * Remove default margin.
+ */
+/* line 23, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_normalize.scss */
+body {
+  margin: 0;
+}
+
+/* HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11
+ * and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+/* line 37, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_normalize.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+/* line 58, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_normalize.scss */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */
+}
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+/* line 71, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_normalize.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/10/11, Safari, and Firefox < 22.
+ */
+/* line 81, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_normalize.scss */
+[hidden],
+template {
+  display: none;
+}
+
+/* Links
+   ========================================================================== */
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+/* line 93, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_normalize.scss */
+a {
+  background-color: transparent;
+}
+
+/**
+ * Improve readability of focused elements when they are also in an
+ * active/hover state.
+ */
+/* line 102, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_normalize.scss */
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+/* line 114, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_normalize.scss */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+/* line 122, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_normalize.scss */
+b,
+strong {
+  font-weight: bold;
+}
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+/* line 131, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_normalize.scss */
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+/* line 140, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_normalize.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+/* line 149, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_normalize.scss */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+/* line 158, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_normalize.scss */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+/* line 166, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_normalize.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 174, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_normalize.scss */
+sup {
+  top: -0.5em;
+}
+
+/* line 178, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_normalize.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+/* line 189, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_normalize.scss */
+img {
+  border: 0;
+}
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+/* line 197, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_normalize.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+/* line 208, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_normalize.scss */
+figure {
+  margin: 1em 40px;
+}
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+/* line 216, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_normalize.scss */
+hr {
+  box-sizing: content-box;
+  height: 0;
+}
+
+/**
+ * Contain overflow in all browsers.
+ */
+/* line 225, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_normalize.scss */
+pre {
+  overflow: auto;
+}
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+/* line 233, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_normalize.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ */
+/* line 256, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_normalize.scss */
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+  margin: 0;
+  /* 3 */
+}
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+/* line 270, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_normalize.scss */
+button {
+  overflow: visible;
+}
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+/* line 281, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_normalize.scss */
+button,
+select {
+  text-transform: none;
+}
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+/* line 294, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_normalize.scss */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */
+}
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+/* line 306, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_normalize.scss */
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+/* line 315, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_normalize.scss */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+/* line 326, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_normalize.scss */
+input {
+  line-height: normal;
+}
+
+/**
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+/* line 338, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_normalize.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+/* line 350, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_normalize.scss */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome.
+ */
+/* line 360, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_normalize.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  box-sizing: content-box;
+  /* 2 */
+}
+
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+/* line 371, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_normalize.scss */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+/* line 380, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_normalize.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+/* line 391, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_normalize.scss */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+/* line 400, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_normalize.scss */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+/* line 409, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_normalize.scss */
+optgroup {
+  font-weight: bold;
+}
+
+/* Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+/* line 420, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_normalize.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 425, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_normalize.scss */
+td,
+th {
+  padding: 0;
+}
+
+/* line 12, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_grid-settings.scss */
+body:before {
+  content: "320px" !important;
+  font-size: 0px;
+  color: #fff;
+  position: absolute;
+}
+
+@media (min-width: 480px) {
+  /* line 20, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_grid-settings.scss */
+  body:before {
+    content: "480px" !important;
+  }
+}
+
+@media (min-width: 768px) {
+  /* line 23, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_grid-settings.scss */
+  body:before {
+    content: "768px" !important;
+  }
+}
+
+@media (min-width: 960px) {
+  /* line 26, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_grid-settings.scss */
+  body:before {
+    content: "960px" !important;
+  }
+}
+
+@media (min-width: 1280px) {
+  /* line 29, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_grid-settings.scss */
+  body:before {
+    content: "1280px" !important;
+  }
+}
+
+/* line 1, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_buttons.scss */
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 0;
+  cursor: pointer;
+  display: inline-block;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+/* line 10, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_buttons.scss */
+button:disabled, input[type="button"]:disabled, input[type="reset"]:disabled, input[type="submit"]:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+/* line 14, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_buttons.scss */
+button:disabled:hover, input[type="button"]:disabled:hover, input[type="reset"]:disabled:hover, input[type="submit"]:disabled:hover {
+  background-color: #477dca;
+}
+
+/* line 20, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_buttons.scss */
+.btn {
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 0.88889rem;
+}
+
+/* line 26, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_buttons.scss */
+.btn-ghost {
+  padding: .8rem 2.5rem;
+  border-radius: 3px;
+  color: #50ad55;
+  border: 2px solid #50ad55;
+}
+
+/* line 33, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_buttons.scss */
+.btn-ghost-inverse {
+  color: #fff;
+  border: 2px solid #fff;
+  background: transparent;
+  transition: all 0.6s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+/* line 39, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_buttons.scss */
+.btn-ghost-inverse:hover {
+  background: #fff;
+  color: #212121;
+}
+
+/* line 1, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_forms.scss */
+fieldset {
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+  margin: 0 0 0.56667em;
+  padding: 1.7em;
+}
+
+/* line 7, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_forms.scss */
+form {
+  margin-top: 3rem;
+}
+
+/* line 10, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_forms.scss */
+.form-group {
+  position: relative;
+  margin: 3rem 0 0 0;
+}
+
+/* line 15, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_forms.scss */
+input,
+label,
+select {
+  display: block;
+  font-family: "aight", sans-serif;
+  font-size: 18px;
+}
+
+/* line 23, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_forms.scss */
+label {
+  font-weight: 500;
+  margin-bottom: 0.28333em;
+  color: #adecb0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  font-size: 1rem;
+}
+
+/* line 32, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_forms.scss */
+label.required::after {
+  content: "*";
+}
+
+/* line 36, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_forms.scss */
+label abbr {
+  display: none;
+}
+
+/* line 41, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_forms.scss */
+input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], input:not([type]), textarea,
+select[multiple=multiple] {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #abd7ad;
+  border-radius: 0;
+  box-shadow: none;
+  box-sizing: border-box;
+  font-family: "aight", sans-serif;
+  font-size: 1.44444rem;
+  margin-bottom: 0.44444rem;
+  padding: 0.56667em 0;
+  transition: border-color 150ms ease;
+  width: 100%;
+}
+
+/* line 59, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_forms.scss */
+input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="email"]:focus, input[type="month"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="time"]:focus, input[type="url"]:focus, input[type="week"]:focus, input:not([type]):focus, textarea:focus,
+select[multiple=multiple]:focus {
+  border-bottom-color: white;
+  outline: none;
+}
+
+/* line 64, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_forms.scss */
+input[type="color"]:disabled, input[type="date"]:disabled, input[type="datetime"]:disabled, input[type="datetime-local"]:disabled, input[type="email"]:disabled, input[type="month"]:disabled, input[type="number"]:disabled, input[type="password"]:disabled, input[type="search"]:disabled, input[type="tel"]:disabled, input[type="text"]:disabled, input[type="time"]:disabled, input[type="url"]:disabled, input[type="week"]:disabled, input:not([type]):disabled, textarea:disabled,
+select[multiple=multiple]:disabled {
+  background-color: #f2f2f2;
+  cursor: not-allowed;
+}
+
+/* line 68, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_forms.scss */
+input[type="color"]:disabled:hover, input[type="date"]:disabled:hover, input[type="datetime"]:disabled:hover, input[type="datetime-local"]:disabled:hover, input[type="email"]:disabled:hover, input[type="month"]:disabled:hover, input[type="number"]:disabled:hover, input[type="password"]:disabled:hover, input[type="search"]:disabled:hover, input[type="tel"]:disabled:hover, input[type="text"]:disabled:hover, input[type="time"]:disabled:hover, input[type="url"]:disabled:hover, input[type="week"]:disabled:hover, input:not([type]):disabled:hover, textarea:disabled:hover,
+select[multiple=multiple]:disabled:hover {
+  border: 1px solid #ddd;
+}
+
+/* line 74, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_forms.scss */
+textarea {
+  resize: vertical;
+  display: block;
+}
+
+/* line 79, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_forms.scss */
+input[type="search"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+/* line 83, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_forms.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  display: inline;
+  margin-right: 0.28333em;
+}
+
+/* line 88, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_forms.scss */
+input[type="checkbox"] + label,
+input[type="radio"] + label {
+  display: inline-block;
+}
+
+/* line 93, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_forms.scss */
+input[type="file"] {
+  margin-bottom: 0.56667em;
+  width: 100%;
+}
+
+/* line 98, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_forms.scss */
+select {
+  margin-bottom: 1.7em;
+  max-width: 100%;
+  width: auto;
+}
+
+/* line 105, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_forms.scss */
+.input-filled + label,
+input:focus + label,
+textarea:focus + label {
+  bottom: 100%;
+  color: #fff;
+  font-size: 70%;
+  letter-spacing: 1px;
+}
+
+/* line 114, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_forms.scss */
+span.error {
+  display: block;
+  float: right;
+  background: red;
+  padding: .5rem;
+  font-style: italic;
+  margin-top: -0.44444rem;
+  font-size: 80%;
+}
+
+/* line 124, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_forms.scss */
+#contact-form input:-webkit-autofill {
+  box-shadow: inset 0 0 0 65px #85c788;
+  -webkit-text-fill-color: white;
+}
+
+/* line 1, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_lists.scss */
+ul,
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 20, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_lists.scss */
+dl {
+  margin-bottom: 0.56667em;
+}
+
+/* line 23, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_lists.scss */
+dl dt {
+  font-weight: bold;
+  margin-top: 0.56667em;
+}
+
+/* line 28, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_lists.scss */
+dl dd {
+  margin: 0;
+}
+
+/* line 1, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_tables.scss */
+table {
+  border-collapse: collapse;
+  -webkit-font-feature-settings: "kern", "liga", "tnum";
+  font-feature-settings: "kern", "liga", "tnum";
+  margin: 0.56667em 0;
+  table-layout: fixed;
+  width: 100%;
+}
+
+/* line 9, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_tables.scss */
+th {
+  border-bottom: 1px solid #a6a6a6;
+  font-weight: 600;
+  padding: 0.56667em 0;
+  text-align: left;
+}
+
+/* line 16, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_tables.scss */
+td {
+  border-bottom: 1px solid #ddd;
+  padding: 0.56667em 0;
+}
+
+/* line 21, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_tables.scss */
+tr,
+td,
+th {
+  vertical-align: middle;
+}
+
+@font-face {
+  font-family: "aight";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/AlrightSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "aight";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/AlrightSans-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "aight";
+  font-style: normal;
+  font-weight: bold;
+  src: url("../fonts/AlrightSans-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "aight";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/AlrightSans-Black.ttf") format("truetype");
+}
+
+/* line 5, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_typography.scss */
+body {
+  opacity: 0;
+  transition: all 2s ease;
+}
+
+/* line 10, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_typography.scss */
+.isReady body {
+  opacity: 1;
+}
+
+@media (min-width: 960px) {
+  /* line 16, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_typography.scss */
+  html {
+    position: relative;
+    background: url("../img/logo-green.svg") 50% 50% no-repeat;
+    min-height: 100%;
+  }
+  /* line 21, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_typography.scss */
+  html.isReady {
+    background: none;
+  }
+  /* line 23, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_typography.scss */
+  html.isReady:before,
+  html.isReady body:before,
+  html.isReady body:after {
+    content: '';
+    border-right: 1px solid whitesmoke;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 25%;
+    width: 1px;
+    height: 100%;
+    width: 25%;
+    z-index: -1;
+  }
+  /* line 34, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_typography.scss */
+  html.isReady body:before {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+  }
+  /* line 38, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_typography.scss */
+  html.isReady body:after {
+    border-left: 1px solid whitesmoke;
+    border-right: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: auto;
+  }
+}
+
+/* line 48, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_typography.scss */
+body {
+  color: #666666;
+  font-family: "aight", sans-serif;
+  -webkit-font-feature-settings: "kern", "liga", "pnum";
+  font-feature-settings: "kern", "liga", "pnum";
+  font-size: 18px;
+  line-height: 1.7;
+  position: relative;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* line 58, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_typography.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "aight", sans-serif;
+  font-size: 18px;
+  line-height: 1.2;
+  margin: 0 0 0.56667em 0;
+  color: #212121;
+}
+
+/* line 70, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_typography.scss */
+h1 i,
+h2 i,
+h3 i,
+h4 i,
+h5 i,
+h6 i {
+  font-weight: normal;
+}
+
+/* line 75, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_typography.scss */
+h1 {
+  font-weight: 900;
+  font-size: 2rem;
+}
+
+/* line 79, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_typography.scss */
+h2 {
+  font-size: 1.55556rem;
+  font-weight: normal;
+}
+
+/* line 87, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_typography.scss */
+h5 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 500;
+  font-size: 0.88889rem;
+}
+
+@media (min-width: 960px) {
+  /* line 95, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_typography.scss */
+  h1 {
+    font-size: 3.33333rem;
+    line-height: 1.5;
+  }
+}
+
+/* line 98, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_typography.scss */
+p {
+  margin: 0 0 0.56667em;
+}
+
+/* line 101, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_typography.scss */
+p.lead {
+  font-size: 1.33333rem;
+}
+
+/* line 106, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_typography.scss */
+a {
+  color: #477dca;
+  text-decoration: none;
+  transition: color 150ms ease;
+}
+
+/* line 114, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_typography.scss */
+hr {
+  border-bottom: 1px solid #ddd;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  margin: 1.7em 0;
+}
+
+/* line 122, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_typography.scss */
+img,
+picture {
+  margin: 0;
+  max-width: 100%;
+}
+
+/* line 128, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_typography.scss */
+strong {
+  color: #212121;
+}
+
+/* line 132, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/base/_typography.scss */
+p + h2,
+p + h3,
+p + h4,
+p + h5,
+ul + h2,
+ul + h3,
+ul + h4,
+ul + h5 {
+  margin-top: 1.77778rem;
+}
+
+/************************
+Header & Nav
+************************/
+/* line 10, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+.siteHeader {
+  padding: 16px 4% 16px;
+  position: relative;
+  z-index: 1;
+  background: #fff;
+  z-index: 2;
+}
+
+/* line 20, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/vendor/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
+.siteHeader::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+@media (min-width: 768px) {
+  /* line 10, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+  .siteHeader {
+    padding: 25px 4% 25px;
+  }
+}
+
+/* line 22, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+.logo {
+  height: 19px;
+  width: 180px;
+  float: left;
+  margin: 0;
+  position: relative;
+  z-index: 100;
+}
+
+/* line 30, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+.logo a {
+  display: block;
+  height: 100%;
+  background: url("../img/logo-green.svg") 0 0/100% 100% no-repeat;
+  text-indent: -9999px;
+  overflow: hidden;
+}
+
+/* line 39, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+.siteHeader.is-active .logo a,
+.logo-inverse a {
+  background-image: url("../img/logo.svg");
+}
+
+@media (min-width: 960px) {
+  /* line 45, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+  .siteHeader.is-active .logo a {
+    background-image: url("../img/logo-green.svg");
+  }
+}
+
+/* line 50, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+.mainNav {
+  float: right;
+}
+
+/* line 53, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+.mainNav li {
+  display: inline-block;
+  margin-left: 40px;
+}
+
+/* line 58, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+.mainNav a:not(.btn-ghost) {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 500;
+  color: black;
+  font-size: 0.88889rem;
+}
+
+/* line 66, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+.mainNav a.btn-ghost {
+  padding: .7rem;
+}
+
+@media (min-width: 960px) {
+  /* line 71, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+  .mainNav li {
+    margin-left: 70px;
+  }
+  /* line 75, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+  .mainNav a.btn-ghost {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+}
+
+/*
+ *
+ * HAMBURGER MENU
+ *
+ */
+/* line 86, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+#hamburger-button {
+  background: none;
+  width: 24px;
+  height: 19px;
+  padding: 0;
+  float: right;
+  position: relative;
+  z-index: 100;
+}
+
+/* line 95, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+#hamburger-button:focus {
+  outline: none;
+}
+
+/* line 100, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+.hamburger-line {
+  background: black;
+  position: relative;
+  border-radius: 99px;
+  height: 3px;
+  display: block;
+  margin-bottom: 4px;
+  -webkit-animation-duration: .5s;
+  animation-duration: .5s;
+  -webkit-animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+/* line 111, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+.hamburger-line.hamburger-line-bottom {
+  margin-bottom: 0;
+}
+
+@-webkit-keyframes hamburger-top-open {
+  0% {
+    -webkit-transform: translate(0, 0) rotate(0deg);
+    transform: translate(0, 0) rotate(0deg);
+  }
+  50% {
+    -webkit-transform: translate(0, 7px) rotate(0deg);
+    transform: translate(0, 7px) rotate(0deg);
+  }
+  100% {
+    -webkit-transform: translate(0, 7px) rotate(45deg);
+    transform: translate(0, 7px) rotate(45deg);
+  }
+}
+
+@keyframes hamburger-top-open {
+  0% {
+    -webkit-transform: translate(0, 0) rotate(0deg);
+    transform: translate(0, 0) rotate(0deg);
+  }
+  50% {
+    -webkit-transform: translate(0, 7px) rotate(0deg);
+    transform: translate(0, 7px) rotate(0deg);
+  }
+  100% {
+    -webkit-transform: translate(0, 7px) rotate(45deg);
+    transform: translate(0, 7px) rotate(45deg);
+  }
+}
+
+@-webkit-keyframes hamburger-bottom-open {
+  0% {
+    -webkit-transform: translate(0, 0) rotate(0deg);
+    transform: translate(0, 0) rotate(0deg);
+  }
+  50% {
+    -webkit-transform: translate(0, -7px) rotate(0deg);
+    transform: translate(0, -7px) rotate(0deg);
+  }
+  100% {
+    -webkit-transform: translate(0, -7px) rotate(-45deg);
+    transform: translate(0, -7px) rotate(-45deg);
+  }
+}
+
+@keyframes hamburger-bottom-open {
+  0% {
+    -webkit-transform: translate(0, 0) rotate(0deg);
+    transform: translate(0, 0) rotate(0deg);
+  }
+  50% {
+    -webkit-transform: translate(0, -7px) rotate(0deg);
+    transform: translate(0, -7px) rotate(0deg);
+  }
+  100% {
+    -webkit-transform: translate(0, -7px) rotate(-45deg);
+    transform: translate(0, -7px) rotate(-45deg);
+  }
+}
+
+@-webkit-keyframes hamburger-middle-open {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes hamburger-middle-open {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes hamburger-top-close {
+  100% {
+    -webkit-transform: translate(0, 0) rotate(0deg);
+    transform: translate(0, 0) rotate(0deg);
+  }
+  50% {
+    -webkit-transform: translate(0, 7px) rotate(0deg);
+    transform: translate(0, 7px) rotate(0deg);
+  }
+  0% {
+    -webkit-transform: translate(0, 7px) rotate(45deg);
+    transform: translate(0, 7px) rotate(45deg);
+  }
+}
+
+@keyframes hamburger-top-close {
+  100% {
+    -webkit-transform: translate(0, 0) rotate(0deg);
+    transform: translate(0, 0) rotate(0deg);
+  }
+  50% {
+    -webkit-transform: translate(0, 7px) rotate(0deg);
+    transform: translate(0, 7px) rotate(0deg);
+  }
+  0% {
+    -webkit-transform: translate(0, 7px) rotate(45deg);
+    transform: translate(0, 7px) rotate(45deg);
+  }
+}
+
+@-webkit-keyframes hamburger-bottom-close {
+  100% {
+    -webkit-transform: translate(0, 0) rotate(0deg);
+    transform: translate(0, 0) rotate(0deg);
+  }
+  50% {
+    -webkit-transform: translate(0, -7px) rotate(0deg);
+    transform: translate(0, -7px) rotate(0deg);
+  }
+  0% {
+    -webkit-transform: translate(0, -7px) rotate(-45deg);
+    transform: translate(0, -7px) rotate(-45deg);
+  }
+}
+
+@keyframes hamburger-bottom-close {
+  100% {
+    -webkit-transform: translate(0, 0) rotate(0deg);
+    transform: translate(0, 0) rotate(0deg);
+  }
+  50% {
+    -webkit-transform: translate(0, -7px) rotate(0deg);
+    transform: translate(0, -7px) rotate(0deg);
+  }
+  0% {
+    -webkit-transform: translate(0, -7px) rotate(-45deg);
+    transform: translate(0, -7px) rotate(-45deg);
+  }
+}
+
+@-webkit-keyframes hamburger-middle-close {
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  0% {
+    opacity: 0;
+  }
+}
+
+@keyframes hamburger-middle-close {
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  0% {
+    opacity: 0;
+  }
+}
+
+/* line 186, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+.is-active .hamburger-line {
+  background: white;
+}
+
+/* line 187, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+.is-active .hamburger-line-top {
+  -webkit-animation-name: hamburger-top-open;
+  animation-name: hamburger-top-open;
+}
+
+/* line 188, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+.is-active .hamburger-line-middle {
+  -webkit-animation-name: hamburger-middle-open;
+  animation-name: hamburger-middle-open;
+}
+
+/* line 189, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+.is-active .hamburger-line-bottom {
+  -webkit-animation-name: hamburger-bottom-open;
+  animation-name: hamburger-bottom-open;
+}
+
+/* line 193, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+.is-closed .hamburger-line-top {
+  -webkit-animation-name: hamburger-top-close;
+  animation-name: hamburger-top-close;
+}
+
+/* line 194, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+.is-closed .hamburger-line-middle {
+  -webkit-animation-name: hamburger-middle-close;
+  animation-name: hamburger-middle-close;
+}
+
+/* line 195, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+.is-closed .hamburger-line-bottom {
+  -webkit-animation-name: hamburger-bottom-close;
+  animation-name: hamburger-bottom-close;
+}
+
+/* line 198, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+#hamburger-menu {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 99;
+  height: 0vh;
+  overflow: hidden;
+  background: #50ad55;
+  opacity: 0;
+  padding-top: 50px;
+  padding-left: 4%;
+  height: 100vh;
+  transition: opacity .3s ease-out;
+  position: fixed;
+  pointer-events: none;
+  color: #fff;
+}
+
+/* line 214, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+#hamburger-menu li {
+  display: block;
+  margin: 20px 0;
+}
+
+/* line 219, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+#hamburger-menu a {
+  display: block;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  opacity: 0;
+  -webkit-transform: translateY(50%);
+  -ms-transform: translateY(50%);
+  transform: translateY(50%);
+  transition: all 0.5s cubic-bezier(0.215, 0.61, 0.355, 1) 0.2s;
+  color: #fff;
+}
+
+/* line 229, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+#hamburger-menu li:nth-child(2) a {
+  transition-delay: .3s;
+}
+
+/* line 230, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+#hamburger-menu li:nth-child(3) a {
+  transition-delay: .4s;
+}
+
+/* line 231, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+#hamburger-menu li:nth-child(4) a {
+  transition-delay: .5s;
+}
+
+/* line 233, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+#hamburger-menu nav {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  margin-bottom: 30px;
+}
+
+/* line 237, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+#hamburger-menu nav li {
+  margin: 50px 0;
+}
+
+/* line 241, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+#hamburger-menu nav a {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+/* line 248, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+#hamburger-menu.is-active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* line 252, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+#hamburger-menu.is-active a {
+  opacity: 1;
+  -webkit-transform: translateY(0%);
+  -ms-transform: translateY(0%);
+  transform: translateY(0%);
+}
+
+/* line 260, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+.siteHeader-dark {
+  background: transparent;
+  position: absolute;
+  width: 100%;
+}
+
+/* line 265, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+.siteHeader-dark a:not(.btn) {
+  color: #fff;
+}
+
+/* line 269, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+.siteHeader-dark .hamburger-line {
+  background: white;
+}
+
+/* line 273, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+.siteHeader-dark .logo a {
+  background-image: url("../img/logo.svg");
+}
+
+/************************
+Footer
+************************/
+/* line 282, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+footer {
+  background: #464746;
+  color: #c5c7c5;
+  text-align: center;
+  padding: 20px 4%;
+}
+
+/* line 20, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/vendor/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
+footer::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+/* line 289, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+footer .logo {
+  float: none;
+  margin: 0 auto;
+}
+
+/* line 293, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+footer .logo a {
+  background-image: url("../img/logo.svg");
+}
+
+/* line 297, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+footer a {
+  color: inherit;
+}
+
+/* line 304, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+.footer-meta {
+  display: block;
+  margin: 20px auto;
+}
+
+/* line 309, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+.footer-social {
+  display: inline-block;
+  width: 8%;
+  margin: 0 6%;
+  max-width: 30px;
+}
+
+@media (min-width: 960px) {
+  /* line 316, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+  .footer-meta {
+    float: left;
+    margin: 15px 25px 0 0;
+  }
+  /* line 320, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+  footer .logo {
+    margin: 0 0 0 0;
+  }
+  /* line 323, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+  .footer-social {
+    width: 24px;
+    margin: 0 8px;
+  }
+}
+
+@media (min-width: 1280px) {
+  /* line 330, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+  footer .logo {
+    float: left;
+    margin-right: 100px;
+  }
+  /* line 334, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+  .footer-meta {
+    margin-top: 0;
+  }
+  /* line 337, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+  .footer-meta:last-child {
+    margin-right: 0;
+  }
+  /* line 341, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+  .footer-content {
+    float: right;
+  }
+}
+
+/************************
+Main
+************************/
+/* line 350, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+main {
+  min-height: 100vh;
+}
+
+/************************
+Home
+************************/
+/* line 358, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+.page-home footer {
+  display: none;
+}
+
+/* line 363, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+.slides {
+  color: #fff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 0;
+}
+
+/* line 372, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+.slide {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  text-align: left;
+}
+
+/* line 378, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+.slide:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(6, 6, 6, 0.43);
+  z-index: 0;
+}
+
+/* line 385, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+.slide video {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+  z-index: -1;
+}
+
+/* line 394, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+.slide-content {
+  position: absolute;
+  top: 50%;
+  right: 4%;
+  left: 14%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* line 398, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+.slide-content h1 {
+  font-size: 2.33333rem;
+  color: #fff;
+}
+
+/* line 402, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+.slide-content h1 .c {
+  font-style: normal;
+}
+
+/* line 407, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+.slide-content .btn {
+  opacity: 0;
+  top: 25px;
+  position: relative;
+}
+
+/* line 412, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+.slide-content .btn.in {
+  opacity: 1;
+  top: 0;
+}
+
+/* line 420, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+#panels-nav {
+  position: fixed;
+  left: -5%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+/* line 428, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+#panels-nav.is-active {
+  left: 5%;
+}
+
+/* line 432, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+#panels-nav a {
+  display: block;
+  border-radius: 99px;
+  width: 7px;
+  height: 7px;
+  background: rgba(255, 255, 255, 0.5);
+  margin-bottom: 30px;
+  margin-left: 2px;
+  text-indent: -9999px;
+  font-size: 0;
+  border: 2px solid transparent;
+}
+
+/* line 445, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+#panels-nav a:before {
+  content: '';
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+  height: 32px;
+  width: 1px;
+  display: block;
+  margin-left: 1px;
+  margin-top: 6px;
+}
+
+/* line 455, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+#panels-nav li:last-child a {
+  margin-bottom: 0;
+}
+
+/* line 458, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+#panels-nav li:last-child a:before {
+  border: none;
+}
+
+/* line 463, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+#panels-nav .active a {
+  background: 0;
+  border: 2px solid white;
+  width: 11px;
+  height: 11px;
+  margin-left: 0;
+}
+
+/* line 470, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+#panels-nav .active a:before {
+  margin-left: 3px;
+}
+
+@media (min-width: 768px) {
+  /* line 478, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+  .slide {
+    background-position: 50% 50%;
+  }
+  /* line 481, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+  .slide-content {
+    text-align: center;
+  }
+  /* line 484, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+  .slide-content h1 {
+    font-size: 3.33333rem;
+  }
+}
+
+@media (min-width: 960px) {
+  /* line 491, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+  .slide-content {
+    left: 4%;
+  }
+}
+
+/************************
+About Page
+************************/
+/* line 504, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+#about-intro {
+  color: #fff;
+  position: relative;
+  height: calc(100vh - 174px);
+  z-index: 1;
+  overflow: hidden;
+}
+
+/* line 511, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+#about-intro h1 {
+  position: absolute;
+  top: 50%;
+  right: 4%;
+  left: 4%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index: 2;
+  color: #fff;
+}
+
+/* line 517, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+#about-intro video {
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  height: 100%;
+  width: 100%;
+}
+
+/* line 525, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+#about-intro:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(6, 6, 6, 0.63);
+  z-index: 1;
+}
+
+/* line 532, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+#about-stats {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+/* line 536, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+.about-stat, .caseStudy-stat {
+  text-align: center;
+  padding: 30px 4%;
+  width: 50%;
+  border-right: 1px solid #eee;
+  -webkit-flex-basis: 50%;
+  -ms-flex-preferred-size: 50%;
+  flex-basis: 50%;
+  border-bottom: 1px solid #eee;
+  margin: 0;
+}
+
+/* line 546, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+.about-stat:nth-child(even), .caseStudy-stat:nth-child(even) {
+  border-right: none;
+}
+
+/* line 550, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+.about-stat dt, .caseStudy-stat dt {
+  text-transform: uppercase;
+  color: #939393;
+  letter-spacing: 1px;
+  font-size: 0.66667rem;
+  font-weight: normal;
+}
+
+/* line 558, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+.about-stat dd, .caseStudy-stat dd {
+  font-family: 'trumpgothicpro', sans-serif;
+  font-size: 5.55556rem;
+  line-height: 1;
+  color: #212121;
+}
+
+@media (min-width: 960px) {
+  /* line 567, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+  #about-intro {
+    height: calc(100vh - 235px);
+    min-height: 600px;
+  }
+  /* line 571, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+  #about-stats {
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+  }
+  /* line 574, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+  .about-stat:nth-child(even), .caseStudy-stat:nth-child(even) {
+    border-right: 1px solid #eee;
+  }
+}
+
+/* line 579, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+#about-overview {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 500px;
+}
+
+/* line 583, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+.about-overview-content, #careers-hero-copy {
+  background-image: url("../img/about.png");
+  background-position: 0 0;
+  background-size: cover;
+  color: #fad6d6;
+  padding: 50px 4%;
+  font-size: 1.33333rem;
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx), (min--moz-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  /* line 583, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+  .about-overview-content, #careers-hero-copy {
+    background-image: url("../img/about@2x.png");
+  }
+}
+
+/* line 595, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+.about-overview-content h1, #careers-hero-copy h1 {
+  color: #fff;
+}
+
+/* line 599, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+.about-overview-image {
+  background-size: cover;
+  width: 50%;
+  background-position: 50% 50%;
+}
+
+@media (min-width: 960px) {
+  /* line 606, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+  .about-overview-content, #careers-hero-copy {
+    width: 50%;
+  }
+}
+
+/* line 612, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+.about-process-slide {
+  margin: 0 auto;
+}
+
+/* line 615, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+.about-process-slide svg {
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  -webkit-transform: scale(0.5);
+  -ms-transform: scale(0.5);
+  transform: scale(0.5);
+  opacity: .3;
+  -webkit-transform-origin: center bottom;
+  -ms-transform-origin: center bottom;
+  transform-origin: center bottom;
+  transition: all .4s ease;
+  cursor: pointer;
+}
+
+/* line 626, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+.about-process-slide svg:hover {
+  opacity: 1;
+  -webkit-transform: scale(0.6);
+  -ms-transform: scale(0.6);
+  transform: scale(0.6);
+}
+
+/* line 633, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+.about-process-slideCopy {
+  padding: 0 4% 0 calc(10% + 8px);
+  position: relative;
+  margin: 40px auto 0;
+  max-width: 700px;
+  opacity: .1;
+  -webkit-transform-origin: center top;
+  -ms-transform-origin: center top;
+  transform-origin: center top;
+  -webkit-transform: scale(0.5);
+  -ms-transform: scale(0.5);
+  transform: scale(0.5);
+  transition: all .4s ease;
+}
+
+/* line 20, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/vendor/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
+.about-process-slideCopy::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+/* line 645, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+.about-process-slideCopy:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-position: 0% 0%;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  height: 150px;
+  z-index: -1;
+}
+
+/* line 655, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+.owl-item:nth-child(1) .about-process-slide .about-process-slideCopy:before {
+  background-image: url("../img/1.svg");
+}
+
+/* line 655, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+.owl-item:nth-child(2) .about-process-slide .about-process-slideCopy:before {
+  background-image: url("../img/2.svg");
+}
+
+/* line 655, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+.owl-item:nth-child(3) .about-process-slide .about-process-slideCopy:before {
+  background-image: url("../img/3.svg");
+}
+
+/* line 655, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+.owl-item:nth-child(4) .about-process-slide .about-process-slideCopy:before {
+  background-image: url("../img/4.svg");
+}
+
+/* line 655, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+.owl-item:nth-child(5) .about-process-slide .about-process-slideCopy:before {
+  background-image: url("../img/5.svg");
+}
+
+/* line 659, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+.about-process-number {
+  color: #e52b34;
+  font-family: 'trumpgothicpro', sans-serif;
+  font-size: 2rem;
+  line-height: 1.2;
+  font-weight: normal;
+  float: left;
+  margin: 0 8px 0 4%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+/* line 670, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+#about-process .owl-dots {
+  position: absolute;
+  top: 59vw;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+/* line 679, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+.active .about-process-slideCopy {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+/* line 684, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+.active .about-process-slide svg,
+.active .about-process-slide svg:hover {
+  -webkit-transform: scale(1) translateY(0);
+  -ms-transform: scale(1) translateY(0);
+  transform: scale(1) translateY(0);
+  opacity: 1;
+  cursor: default;
+}
+
+@media (min-width: 768px) {
+  /* line 696, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+  #about-process .owl-dots {
+    position: absolute;
+    top: 44.5vw;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+}
+
+@media (min-width: 960px) {
+  /* line 704, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+  .about-process-illustration {
+    border-bottom: 3px solid #242424;
+  }
+  /* line 708, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+  #about-process .owl-dots {
+    display: none;
+  }
+  /* line 711, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+  .about-process-slideCopy {
+    margin-top: 15px;
+  }
+  /* line 714, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+  .about-process-number {
+    margin: 26px 8px 0 calc(10% - 15px);
+  }
+}
+
+/*
+ *  Owl Carousel - Animate Plugin
+ */
+/* line 4, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_owl-carousel.scss */
+.owl-carousel .animated {
+  -webkit-animation-duration: 1000ms;
+  animation-duration: 1000ms;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+/* line 10, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_owl-carousel.scss */
+.owl-carousel .owl-animated-in {
+  z-index: 0;
+}
+
+/* line 13, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_owl-carousel.scss */
+.owl-carousel .owl-animated-out {
+  z-index: 1;
+}
+
+/* line 16, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_owl-carousel.scss */
+.owl-carousel .fadeOut {
+  -webkit-animation-name: fadeOut;
+  animation-name: fadeOut;
+}
+
+@-webkit-keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+/*
+ * 	Owl Carousel - Auto Height Plugin
+ */
+/* line 43, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_owl-carousel.scss */
+.owl-height {
+  transition: height 500ms ease-in-out;
+}
+
+/*
+ *  Core Owl Carousel CSS File
+ */
+/* line 54, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_owl-carousel.scss */
+.owl-carousel {
+  display: none;
+  width: 100%;
+  -webkit-tap-highlight-color: transparent;
+  /* position relative and z-index fix webkit rendering fonts issue */
+  position: relative;
+  z-index: 1;
+}
+
+/* line 62, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_owl-carousel.scss */
+.owl-carousel .owl-stage {
+  position: relative;
+  -ms-touch-action: pan-Y;
+}
+
+/* line 66, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_owl-carousel.scss */
+.owl-carousel .owl-stage:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+/* line 74, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_owl-carousel.scss */
+.owl-carousel .owl-stage-outer {
+  position: relative;
+  overflow: hidden;
+  /* fix for flashing background */
+  -webkit-transform: translate3d(0px, 0px, 0px);
+}
+
+/* line 81, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_owl-carousel.scss */
+.owl-carousel .owl-nav.disabled {
+  display: none;
+}
+
+/* line 84, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_owl-carousel.scss */
+.owl-carousel .owl-controls .owl-nav .owl-prev,
+.owl-carousel .owl-controls .owl-nav .owl-next,
+.owl-carousel .owl-controls .owl-dot {
+  cursor: pointer;
+  cursor: hand;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* line 95, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_owl-carousel.scss */
+.owl-carousel.owl-loaded {
+  display: block;
+}
+
+/* line 98, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_owl-carousel.scss */
+.owl-carousel.owl-loading {
+  opacity: 0;
+  display: block;
+}
+
+/* line 102, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_owl-carousel.scss */
+.owl-carousel.owl-hidden {
+  opacity: 0;
+}
+
+/* line 105, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_owl-carousel.scss */
+.owl-carousel .owl-refresh .owl-item {
+  display: none;
+}
+
+/* line 108, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_owl-carousel.scss */
+.owl-carousel .owl-item {
+  position: relative;
+  min-height: 1px;
+  float: left;
+  -webkit-backface-visibility: hidden;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* line 120, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_owl-carousel.scss */
+.owl-carousel .owl-item img {
+  display: block;
+  width: 100%;
+  -webkit-transform-style: preserve-3d;
+}
+
+/* line 125, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_owl-carousel.scss */
+.owl-carousel.owl-text-select-on .owl-item {
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+}
+
+/* line 131, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_owl-carousel.scss */
+.owl-carousel .owl-grab {
+  cursor: move;
+  cursor: -webkit-grab;
+  cursor: -o-grab;
+  cursor: -ms-grab;
+  cursor: grab;
+}
+
+/* line 138, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_owl-carousel.scss */
+.owl-carousel.owl-rtl {
+  direction: rtl;
+}
+
+/* line 141, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_owl-carousel.scss */
+.owl-carousel.owl-rtl .owl-item {
+  float: right;
+}
+
+/* No Js */
+/* line 146, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_owl-carousel.scss */
+.no-js .owl-carousel {
+  display: block;
+}
+
+/*
+ * 	Owl Carousel - Lazy Load Plugin
+ */
+/* line 153, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_owl-carousel.scss */
+.owl-carousel .owl-item .owl-lazy {
+  opacity: 0;
+  transition: opacity 400ms ease;
+}
+
+/* line 161, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_owl-carousel.scss */
+.owl-carousel .owl-item img {
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+/*
+ * 	Owl Carousel - Video Plugin
+ */
+/* line 168, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_owl-carousel.scss */
+.owl-carousel .owl-video-wrapper {
+  position: relative;
+  height: 100%;
+  background: #000;
+}
+
+/* line 173, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_owl-carousel.scss */
+.owl-carousel .owl-video-play-icon {
+  position: absolute;
+  height: 80px;
+  width: 80px;
+  left: 50%;
+  top: 50%;
+  margin-left: -40px;
+  margin-top: -40px;
+  background: url("owl.video.play.png.html") no-repeat;
+  cursor: pointer;
+  z-index: 1;
+  -webkit-backface-visibility: hidden;
+  transition: scale 100ms ease;
+}
+
+/* line 191, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_owl-carousel.scss */
+.owl-carousel .owl-video-play-icon:hover {
+  transition: scale(1.3, 1.3);
+}
+
+/* line 198, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_owl-carousel.scss */
+.owl-carousel .owl-video-playing .owl-video-tn,
+.owl-carousel .owl-video-playing .owl-video-play-icon {
+  display: none;
+}
+
+/* line 202, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_owl-carousel.scss */
+.owl-carousel .owl-video-tn {
+  opacity: 0;
+  height: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  transition: opacity 400ms ease;
+}
+
+/* line 217, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_owl-carousel.scss */
+.owl-carousel .owl-video-frame {
+  position: relative;
+  z-index: 1;
+}
+
+/* line 223, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_owl-carousel.scss */
+.owl-dot {
+  display: block;
+  width: 9px;
+  height: 9px;
+  background: #cacbcc;
+  border-radius: 999px;
+  float: left;
+  margin-top: -5px;
+  margin-right: 10px;
+}
+
+/* line 234, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_owl-carousel.scss */
+.owl-dots {
+  border-top: 1px solid #cacbcc;
+  /* margin: 0 auto; */
+  display: inline-block;
+  /* text-align: center; */
+}
+
+/* line 241, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_owl-carousel.scss */
+.owl-dot:last-child {
+  margin-right: 0;
+}
+
+/* line 245, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_owl-carousel.scss */
+div#about-photos {
+  text-align: center;
+}
+
+/* line 249, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_owl-carousel.scss */
+.owl-dot.active {
+  background: white;
+  border: 2px solid #cacbcc;
+}
+
+@media (min-width: 768px) {
+  /* line 724, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+  #about-photos {
+    display: block;
+  }
+  /* line 20, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/vendor/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
+  #about-photos::after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+  /* line 729, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+  .about-photo {
+    width: 50%;
+    height: 50vw;
+    float: left;
+    overflow: hidden;
+  }
+  /* line 735, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+  .about-photo img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
+}
+
+@media (min-width: 960px) {
+  /* line 744, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+  .about-photo {
+    width: 25%;
+    height: 25vw;
+  }
+}
+
+/************************
+Work Page
+************************/
+/* line 756, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+#caseStudies,
+#dribbbleShots {
+  margin: 0 auto;
+}
+
+/* line 20, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/vendor/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
+#caseStudies::after,
+#dribbbleShots::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+/* line 763, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+.caseStudies-item a {
+  display: block;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+/* line 770, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+.caseStudies-item img {
+  transition: all .3s ease-out;
+  display: block;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  height: auto;
+  min-width: 100%;
+}
+
+/* line 778, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+.caseStudies-itemTitle {
+  display: none;
+}
+
+/* line 782, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+.dribbbleShots-shot {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/* line 786, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+.dribbbleShots-shot img {
+  border: 1px solid #eee;
+}
+
+@media (min-width: 768px) {
+  /* line 792, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+  .caseStudies-item {
+    float: left;
+    width: 45%;
+    margin: 2.5%;
+  }
+  /* line 797, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+  .caseStudies-item a {
+    margin-bottom: 0;
+  }
+  /* line 20, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/vendor/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
+  #dribbbleShots::after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+  /* line 805, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+  .dribbbleShots-shot {
+    width: 33.3%;
+    float: left;
+    padding: 0 1%;
+  }
+}
+
+@media (min-width: 960px) {
+  /* line 813, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+  #caseStudies,
+  #dribbbleShots {
+    width: 80%;
+  }
+  /* line 817, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+  .caseStudies-item {
+    float: left;
+    width: 30%;
+    margin: 1.5%;
+  }
+  /* line 822, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+  .caseStudies-item .caseStudies-itemTitle {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: 0;
+    -webkit-transform: translateY(-50%) scale(1.5);
+    -ms-transform: translateY(-50%) scale(1.5);
+    transform: translateY(-50%) scale(1.5);
+    opacity: 0;
+    color: #fff;
+    z-index: 0;
+    text-align: center;
+    transition: all .3s ease-out;
+  }
+  /* line 834, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+  .caseStudies-item a:hover img {
+    opacity: .5;
+    -webkit-transform: scale(1.04);
+    -ms-transform: scale(1.04);
+    transform: scale(1.04);
+  }
+  /* line 839, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+  .caseStudies-item a:hover .caseStudies-itemTitle {
+    opacity: 1;
+    -webkit-transform: scale(1) translateY(-50%);
+    -ms-transform: scale(1) translateY(-50%);
+    transform: scale(1) translateY(-50%);
+  }
+  /* line 845, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+  .dribbbleShots-shot {
+    width: 25%;
+  }
+  /* line 848, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+  .dribbbleShots-shot img {
+    max-width: 200px;
+  }
+}
+
+/************************
+Case Study
+************************/
+/* line 48, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_case-study.scss */
+.caseStudy-hero {
+  background: #d94f54;
+  padding: 30vh 0 0 0;
+  color: white;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* line 54, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_case-study.scss */
+.caseStudy-hero h5 {
+  color: #fff;
+  opacity: .9;
+}
+
+/* line 59, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_case-study.scss */
+.caseStudy-hero h1 {
+  color: #fff;
+}
+
+/* line 63, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_case-study.scss */
+.caseStudy-hero .browser {
+  position: relative;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 4px 4px 0 0;
+  padding-top: 35px;
+  display: inline-block;
+  background: transparent;
+  display: block;
+}
+
+/* line 9, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_case-study.scss */
+.caseStudy-hero .browser:before, .caseStudy-hero .browser:after {
+  content: '';
+  display: block;
+  border-radius: 99px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  height: 8px;
+  width: 8px;
+  position: absolute;
+  top: 13px;
+  left: 10px;
+}
+
+/* line 19, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_case-study.scss */
+.caseStudy-hero .browser:after {
+  left: 24px;
+}
+
+/* line 23, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_case-study.scss */
+.caseStudy-hero .browser > div {
+  position: relative;
+}
+
+/* line 26, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_case-study.scss */
+.caseStudy-hero .browser > div:first-child:before {
+  content: '';
+  display: block;
+  border-radius: 99px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  height: 8px;
+  width: 8px;
+  position: absolute;
+  top: -22px;
+  left: 38px;
+}
+
+/* line 35, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_case-study.scss */
+.caseStudy-hero .browser > div > div,
+.caseStudy-hero .browser > div > img {
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+/* line 41, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_case-study.scss */
+.caseStudy-hero .browser img {
+  display: block;
+}
+
+/* line 68, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_case-study.scss */
+.caseStudy-hero-content {
+  max-width: 1100px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* line 20, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/vendor/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
+.caseStudy-hero-content::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+@media (min-width: 960px) {
+  /* line 76, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_case-study.scss */
+  .caseStudy-hero .browser {
+    width: 60%;
+    float: right;
+    margin-right: -15%;
+  }
+  /* line 81, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_case-study.scss */
+  .caseStudy-hero-copy {
+    width: 50%;
+    float: left;
+  }
+}
+
+/* line 88, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_case-study.scss */
+.caseStudy-section {
+  max-width: 1100px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* line 20, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/vendor/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
+.caseStudy-section::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+/* line 95, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_case-study.scss */
+section + .caseStudy-section {
+  margin-top: 4rem;
+}
+
+/* line 99, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_case-study.scss */
+.caseStudy-section-copy {
+  max-width: 800px;
+}
+
+/* line 103, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_case-study.scss */
+.caseStudy-section h1 {
+  margin-top: 10rem;
+}
+
+/* line 106, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_case-study.scss */
+.caseStudy-hero + .caseStudy-section h1 {
+  margin-top: 0;
+}
+
+@media (min-width: 768px) {
+  /* line 113, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_case-study.scss */
+  .browser {
+    position: relative;
+    border: 1px solid #b3b6b6;
+    border-radius: 4px 4px 0 0;
+    padding-top: 35px;
+    display: inline-block;
+    background: white;
+  }
+  /* line 9, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_case-study.scss */
+  .browser:before, .browser:after {
+    content: '';
+    display: block;
+    border-radius: 99px;
+    border: 1px solid #b3b6b6;
+    height: 8px;
+    width: 8px;
+    position: absolute;
+    top: 13px;
+    left: 10px;
+  }
+  /* line 19, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_case-study.scss */
+  .browser:after {
+    left: 24px;
+  }
+  /* line 23, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_case-study.scss */
+  .browser > div {
+    position: relative;
+  }
+  /* line 26, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_case-study.scss */
+  .browser > div:first-child:before {
+    content: '';
+    display: block;
+    border-radius: 99px;
+    border: 1px solid #b3b6b6;
+    height: 8px;
+    width: 8px;
+    position: absolute;
+    top: -22px;
+    left: 38px;
+  }
+  /* line 35, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_case-study.scss */
+  .browser > div > div,
+  .browser > div > img {
+    border-top: 1px solid #b3b6b6;
+  }
+  /* line 41, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_case-study.scss */
+  .browser img {
+    display: block;
+  }
+}
+
+/* line 118, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_case-study.scss */
+.mobilePhone {
+  background: url("../img/mobilePhone.svg") 0 0/100% 100% no-repeat;
+  height: 470px;
+  width: 225.5px;
+  position: relative;
+}
+
+/* line 123, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_case-study.scss */
+.mobilePhone > div {
+  height: 369px;
+  width: 201px;
+  overflow: hidden;
+  border: 1px solid #CED0D0;
+  position: absolute;
+  overflow: hidden;
+  position: absolute;
+  top: 50px;
+  left: 13px;
+}
+
+/* line 136, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_case-study.scss */
+section.caseStudy-section-carousel {
+  text-align: center;
+  padding: 0;
+}
+
+/* line 140, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_case-study.scss */
+section.caseStudy-section-carousel .owl-prev,
+section.caseStudy-section-carousel .owl-next {
+  position: absolute;
+  top: 50%;
+  background: white;
+  height: 70px;
+  width: 70px;
+  text-indent: -9999px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  cursor: pointer;
+}
+
+/* line 153, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_case-study.scss */
+section.caseStudy-section-carousel .owl-prev {
+  left: 0;
+  background-image: url("../img/carousel-prev.svg");
+}
+
+/* line 157, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_case-study.scss */
+section.caseStudy-section-carousel .owl-next {
+  right: 0;
+  background-image: url("../img/carousel-next.svg");
+}
+
+@media (min-width: 768px) {
+  /* line 166, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_case-study.scss */
+  section.caseStudy-section-carousel {
+    padding: 0 4%;
+  }
+  /* line 169, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_case-study.scss */
+  section.caseStudy-section-carousel.caseStudy-section-carousel-browser.owl-stage-outer {
+    position: relative;
+    border: 1px solid #b3b6b6;
+    border-radius: 4px 4px 0 0;
+    padding-top: 35px;
+    display: inline-block;
+    background: white;
+    display: block;
+  }
+  /* line 9, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_case-study.scss */
+  section.caseStudy-section-carousel.caseStudy-section-carousel-browser.owl-stage-outer:before, section.caseStudy-section-carousel.caseStudy-section-carousel-browser.owl-stage-outer:after {
+    content: '';
+    display: block;
+    border-radius: 99px;
+    border: 1px solid #b3b6b6;
+    height: 8px;
+    width: 8px;
+    position: absolute;
+    top: 13px;
+    left: 10px;
+  }
+  /* line 19, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_case-study.scss */
+  section.caseStudy-section-carousel.caseStudy-section-carousel-browser.owl-stage-outer:after {
+    left: 24px;
+  }
+  /* line 23, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_case-study.scss */
+  section.caseStudy-section-carousel.caseStudy-section-carousel-browser.owl-stage-outer > div {
+    position: relative;
+  }
+  /* line 26, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_case-study.scss */
+  section.caseStudy-section-carousel.caseStudy-section-carousel-browser.owl-stage-outer > div:first-child:before {
+    content: '';
+    display: block;
+    border-radius: 99px;
+    border: 1px solid #b3b6b6;
+    height: 8px;
+    width: 8px;
+    position: absolute;
+    top: -22px;
+    left: 38px;
+  }
+  /* line 35, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_case-study.scss */
+  section.caseStudy-section-carousel.caseStudy-section-carousel-browser.owl-stage-outer > div > div,
+  section.caseStudy-section-carousel.caseStudy-section-carousel-browser.owl-stage-outer > div > img {
+    border-top: 1px solid #b3b6b6;
+  }
+  /* line 41, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_case-study.scss */
+  section.caseStudy-section-carousel.caseStudy-section-carousel-browser.owl-stage-outer img {
+    display: block;
+  }
+}
+
+/* line 177, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_case-study.scss */
+.caseStudy-section-screenshot {
+  text-align: center;
+}
+
+/* line 183, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_case-study.scss */
+.caseStudy-section-content {
+  margin-top: 1rem;
+}
+
+@media (min-width: 768px) {
+  /* line 188, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_case-study.scss */
+  section.caseStudy-section-left,
+  section.caseStudy-section-right {
+    padding: 0;
+    position: relative;
+    margin-bottom: 90px;
+    max-width: none;
+    overflow: hidden;
+  }
+  /* line 20, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/vendor/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
+  section.caseStudy-section-left::after,
+  section.caseStudy-section-right::after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+  /* line 198, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_case-study.scss */
+  section.caseStudy-section-left > div,
+  section.caseStudy-section-right > div {
+    margin-left: -25%;
+    display: inline-block;
+    border-bottom: 0;
+    width: 70%;
+  }
+  /* line 205, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_case-study.scss */
+  section.caseStudy-section-left .caseStudy-section-content,
+  section.caseStudy-section-right .caseStudy-section-content {
+    float: right;
+    margin-top: 6rem;
+    margin-right: 15%;
+    width: 30%;
+  }
+  /* line 216, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_case-study.scss */
+  section.caseStudy-section-right > div {
+    margin-right: -20%;
+    margin-left: 0;
+    float: right;
+  }
+  /* line 222, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_case-study.scss */
+  section.caseStudy-section-right .caseStudy-section-content {
+    float: left;
+    margin-left: 10%;
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 960px) {
+  /* line 233, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_case-study.scss */
+  section.caseStudy-section-left > div,
+  section.caseStudy-section-right > div {
+    margin-right: 0;
+    margin-left: 0;
+    width: 50%;
+  }
+}
+
+/* line 242, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_case-study.scss */
+.caseStudy-section-twoUp .browser {
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+  /* line 20, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/vendor/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
+  .caseStudy-section-twoUp::after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+  /* line 249, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_case-study.scss */
+  .caseStudy-section-twoUp > div {
+    float: left;
+    width: 48%;
+    text-align: center;
+  }
+  /* line 254, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_case-study.scss */
+  .caseStudy-section-twoUp > div:last-child {
+    float: right;
+  }
+}
+
+/* line 261, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_case-study.scss */
+.caseStudy-section-responsive .browser {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  opacity: .8;
+}
+
+/* line 269, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_case-study.scss */
+.caseStudy-section-responsive {
+  position: relative;
+  overflow: hidden;
+  padding-top: 1rem;
+  padding-bottom: 0rem;
+}
+
+/* line 276, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_case-study.scss */
+.caseStudy-section-responsive .browser img {
+  max-width: none;
+  max-height: 100vw;
+  line-height: 0;
+  display: block;
+}
+
+/* line 283, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_case-study.scss */
+.caseStudy-section-responsive .mobilePhone {
+  float: right;
+  margin-bottom: -52px;
+}
+
+@media (min-width: 768px) {
+  /* line 290, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_case-study.scss */
+  .caseStudy-section-responsive .browser {
+    position: relative;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: auto;
+    opacity: 1;
+  }
+  /* line 299, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_case-study.scss */
+  .caseStudy-section-responsive .browser img {
+    max-width: 100%;
+    max-height: none;
+  }
+  /* line 304, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_case-study.scss */
+  .caseStudy-section-responsive .mobilePhone {
+    float: right;
+    margin-bottom: 0;
+    right: 2%;
+    position: absolute;
+    bottom: 0;
+  }
+}
+
+/* line 20, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/vendor/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
+.caseStudy-section-grid::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+/* line 318, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_case-study.scss */
+.caseStudy-section-grid img {
+  width: 47.5%;
+  float: left;
+  margin-right: 5%;
+  margin-bottom: 5%;
+}
+
+/* line 324, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_case-study.scss */
+.caseStudy-section-grid img:nth-child(even) {
+  margin-right: 0;
+}
+
+@media (min-width: 768px) {
+  /* line 330, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_case-study.scss */
+  .caseStudy-section-grid img {
+    width: 23.5%;
+    float: left;
+    margin-right: 2%;
+    margin-bottom: 2%;
+  }
+  /* line 336, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_case-study.scss */
+  .caseStudy-section-grid img:nth-child(even) {
+    margin-right: 2%;
+  }
+  /* line 340, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_case-study.scss */
+  .caseStudy-section-grid img:nth-child(4n) {
+    margin-right: 0;
+  }
+}
+
+/* line 350, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_case-study.scss */
+.caseStudy-section-stats {
+  text-align: center;
+}
+
+/* line 353, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_case-study.scss */
+.caseStudy-stat {
+  display: inline-block;
+  border: none;
+}
+
+/* line 20, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/vendor/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
+#caseStudy-section-more::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+/* line 366, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_case-study.scss */
+#caseStudy-section-more img {
+  width: 40px;
+  vertical-align: middle;
+}
+
+/* line 371, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_case-study.scss */
+.caseStudy-moreLink-prev,
+.caseStudy-moreLink-next {
+  float: left;
+  width: 50%;
+  padding: 6rem 4rem;
+  transition: all 0.3s cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+/* line 378, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_case-study.scss */
+.caseStudy-moreLink-prev:hover,
+.caseStudy-moreLink-next:hover {
+  padding-left: 5rem;
+}
+
+/* line 382, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_case-study.scss */
+.caseStudy-moreLink-next {
+  text-align: right;
+}
+
+/* line 385, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_case-study.scss */
+.caseStudy-moreLink-next:hover {
+  padding-left: 4rem;
+  padding-right: 5rem;
+}
+
+/* line 390, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_case-study.scss */
+.caseStudy-moreLink-title {
+  color: white;
+  margin: 0 1rem;
+  font-size: 150%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/************************
+Careers
+************************/
+/* line 1, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_careers.scss */
+#careers-hero {
+  margin-bottom: 100px;
+}
+
+/* line 20, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/vendor/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
+#careers-hero-gallery::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+/* line 9, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_careers.scss */
+.careers-hero-photo {
+  width: 50%;
+  float: left;
+}
+
+/* line 13, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_careers.scss */
+.careers-hero-photo img {
+  display: block;
+}
+
+/* line 18, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_careers.scss */
+#careers-hero-copy {
+  padding: 50px 5%;
+}
+
+/* line 22, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_careers.scss */
+#careers-hero-copy h1 {
+  color: #fff;
+}
+
+@media (min-width: 960px) {
+  /* line 28, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_careers.scss */
+  #careers-hero {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    min-height: 400px;
+  }
+  /* line 32, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_careers.scss */
+  #careers-hero-gallery {
+    width: 50%;
+  }
+  /* line 36, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_careers.scss */
+  #careers-hero-copy {
+    width: 50%;
+    font-size: 1.66667rem;
+  }
+  /* line 41, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_careers.scss */
+  .careers-hero-photo {
+    height: 50%;
+    float: left;
+    position: relative;
+  }
+  /* line 46, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_careers.scss */
+  .careers-hero-photo img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+  }
+}
+
+/* line 54, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_careers.scss */
+#careers-jobs {
+  min-height: 50vh;
+}
+
+/* line 57, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_careers.scss */
+.careers-job {
+  margin-bottom: 50px;
+  color: inherit;
+  display: block;
+}
+
+/* line 62, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_careers.scss */
+.careers-job h1 {
+  margin-bottom: 5px;
+}
+
+/* line 66, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_careers.scss */
+.careers-job:hover {
+  color: #212121;
+}
+
+/* line 69, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_careers.scss */
+.careers-job:hover h1 {
+  text-decoration: underline;
+}
+
+/* line 20, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/vendor/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
+#careers-photos::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+/* line 79, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_careers.scss */
+#careers-photos img {
+  width: 50vw;
+  float: left;
+}
+
+@media (min-width: 960px) {
+  /* line 79, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_careers.scss */
+  #careers-photos img {
+    width: 25vw;
+  }
+}
+
+/************************
+Job Details
+************************/
+/* line 96, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_careers.scss */
+#job-us {
+  background: #d94f54;
+  color: #fad6d6;
+}
+
+/* line 101, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_careers.scss */
+#job-us-copy {
+  padding: 50px 5%;
+}
+
+/* line 104, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_careers.scss */
+#job-us-copy h1, #job-us-copy h2, #job-us-copy h3, #job-us-copy h4, #job-us-copy h5 {
+  color: white;
+}
+
+/* line 20, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/vendor/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
+#job-photos::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+/* line 112, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_careers.scss */
+#job-photos img {
+  float: left;
+  width: 50%;
+}
+
+/* line 118, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_careers.scss */
+#job-title {
+  background: #d94f54;
+  padding: 15px 5%;
+  margin: 0 -5.5% 50px -5.5%;
+}
+
+/* line 123, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_careers.scss */
+#job-title h1, #job-title h2 {
+  color: #fff;
+}
+
+/* line 128, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_careers.scss */
+#job-details {
+  padding: 0 5% 100px 5%;
+  overflow: hidden;
+}
+
+/* line 132, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_careers.scss */
+#job-details h1 {
+  margin-top: 75px;
+}
+
+/* line 136, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_careers.scss */
+#job-details ul {
+  margin-left: 20px;
+}
+
+/* line 139, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_careers.scss */
+#job-details li {
+  list-style-image: url("../img/plus.svg");
+  margin-bottom: 5px;
+}
+
+@media (min-width: 960px) {
+  /* line 147, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_careers.scss */
+  #job-wrap {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row-reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+  }
+  /* line 151, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_careers.scss */
+  #job-details,
+  #job-us {
+    width: 50%;
+  }
+  /* line 155, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_careers.scss */
+  #job-details {
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+  /* line 159, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/_careers.scss */
+  #job-title {
+    margin-left: -35px;
+    margin-right: -35px;
+  }
+}
+
+/************************
+Contact
+************************/
+/* line 866, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+#contact {
+  position: fixed;
+  top: -100%;
+  right: unset;
+  left: unset;
+  min-height: 100vh;
+  z-index: 102;
+  background: rgba(80, 174, 85, 0.98);
+  color: #fff;
+  overflow: auto;
+  transition: all .5s ease-out;
+  opacity: 0;
+}
+
+/* line 878, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+#contact section {
+  max-width: 700px;
+  margin: 0 auto;
+  width: 92%;
+  clear: both;
+  opacity: 0;
+  position: relative;
+  top: 50px;
+}
+
+/* line 20, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/vendor/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
+#contact section::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+/* line 888, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+#contact section > header {
+  margin-top: 3rem;
+}
+
+/* line 893, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+#contact h5 {
+  color: #adecb0;
+}
+
+/* line 897, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+#contact a {
+  color: #fff;
+}
+
+/* line 901, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+#contact .logo {
+  margin: 16px 4% 3rem 4%;
+}
+
+/* line 905, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+#contact h1 {
+  color: white;
+}
+
+/* line 910, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+#contact.isOpen {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  opacity: 1;
+}
+
+/* line 914, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+#contact.isOpen section {
+  top: 0;
+  opacity: 1;
+}
+
+/* line 921, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+#contact section:nth-child(1) {
+  transition: all 0.5s ease 1.4s;
+}
+
+/* line 921, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+#contact section:nth-child(2) {
+  transition: all 0.5s ease 0.9s;
+}
+
+/* line 921, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+#contact section:nth-child(3) {
+  transition: all 0.5s ease 0.73333s;
+}
+
+/* line 921, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+#contact section:nth-child(4) {
+  transition: all 0.5s ease 0.65s;
+}
+
+/* line 921, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+#contact section:nth-child(5) {
+  transition: all 0.5s ease 0.6s;
+}
+
+/* line 921, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+#contact section:nth-child(6) {
+  transition: all 0.5s ease 0.56667s;
+}
+
+/* line 921, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+#contact section:nth-child(7) {
+  transition: all 0.5s ease 0.54286s;
+}
+
+/* line 921, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+#contact section:nth-child(8) {
+  transition: all 0.5s ease 0.525s;
+}
+
+/* line 927, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+.contact-social {
+  display: inline-block;
+  width: 24px;
+  margin-right: 8%;
+}
+
+/* line 933, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+#contact-thanks {
+  display: none;
+}
+
+/************************
+404
+************************/
+/* line 940, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+#fourOhFour {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  z-index: 1;
+}
+
+/* line 946, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+#fourOhFour:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(6, 6, 6, 0.43);
+  z-index: 0;
+}
+
+/* line 953, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+#fourOhFour video {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+  z-index: -1;
+}
+
+/* line 961, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+#fourOhFour-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  text-align: center;
+}
+
+/* line 968, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+#fourOhFour-title {
+  background: url("../img/404.svg") 0% 0%/100% 100% no-repeat;
+  height: 147.5px;
+  width: 305.5px;
+  text-indent: -9999px;
+  font-size: 0;
+}
+
+/* line 974, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+#fourOhFour-punchline {
+  border-top: 1px solid white;
+  margin-top: -20px;
+  padding-top: 25px;
+  color: #fff;
+  opacity: .6;
+  text-transform: uppercase;
+  letter-spacing: 7px;
+  font-size: 1.05556rem;
+  font-weight: 500;
+}
+
+/************************
+Utility Classes
+************************/
+/* line 989, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+.container, .caseStudy-hero-content, .caseStudy-section {
+  padding: 0 4%;
+}
+
+/* line 990, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+section > header {
+  margin-top: 5rem;
+}
+
+@media (min-width: 960px) {
+  /* line 990, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+  section > header {
+    margin-top: 5rem;
+  }
+}
+
+/* line 998, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+img, video {
+  max-width: 100%;
+}
+
+/* line 1002, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+.close {
+  display: block;
+  position: absolute;
+  top: 15px;
+  right: 4%;
+  height: 24px;
+  width: 24px;
+  transition: all .2s linear;
+  opacity: .8;
+}
+
+/* line 1011, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+.close:before, .close:after {
+  content: '';
+  background: #fff;
+  height: 3px;
+  width: 24px;
+  display: block;
+  border-radius: 999em;
+}
+
+/* line 1020, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+.close:before {
+  -webkit-transform: rotate(45deg) translate(7px, 7px);
+  -ms-transform: rotate(45deg) translate(7px, 7px);
+  transform: rotate(45deg) translate(7px, 7px);
+}
+
+/* line 1024, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+.close:after {
+  -webkit-transform: rotate(-45deg) translate(-5px, 5px);
+  -ms-transform: rotate(-45deg) translate(-5px, 5px);
+  transform: rotate(-45deg) translate(-5px, 5px);
+}
+
+/* line 1028, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+.close:hover {
+  opacity: 1;
+}
+
+/* line 1033, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+.text-left {
+  text-align: left;
+}
+
+/* line 1034, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+.text-center {
+  text-align: center;
+}
+
+/* line 1035, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+.text-right {
+  text-align: right;
+}
+
+/* line 1037, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+.pull-left {
+  float: left;
+}
+
+/* line 1038, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+.pull-right {
+  float: right;
+}
+
+/* line 1040, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+.half {
+  width: 45%;
+  float: left;
+}
+
+/* line 1044, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+.half + .half {
+  margin-left: 5%;
+}
+
+/* line 1048, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+.third {
+  width: 33.3333%;
+  float: left;
+  padding-left: 4%;
+}
+
+/* line 1053, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+.third:first-child {
+  padding-left: 0%;
+  padding-right: 2%;
+}
+
+/* line 1060, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+.centerBlock {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: none;
+}
+
+/* line 1067, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+.inlineBlock {
+  float: none;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* line 1073, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+.hide {
+  display: none !important;
+}
+
+/* line 1074, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+.show {
+  display: block !important;
+}
+
+/* line 1075, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+.invisible {
+  visibility: hidden;
+}
+
+/* line 1078, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+.hidden-xs-up {
+  display: none !important;
+}
+
+@media (max-width: 479px) {
+  /* line 1083, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+  .hidden-xs-down {
+    display: none !important;
+  }
+  /* line 1086, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+  .br-sm {
+    display: block;
+  }
+}
+
+@media (min-width: 480px) {
+  /* line 1092, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+  .hidden-sm-up {
+    display: none !important;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 1098, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+  .hidden-sm-down {
+    display: none !important;
+  }
+}
+
+@media (min-width: 768px) {
+  /* line 1104, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+  .hidden-md-up {
+    display: none !important;
+  }
+}
+
+@media (max-width: 959px) {
+  /* line 1110, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+  .hidden-md-down {
+    display: none !important;
+  }
+}
+
+@media (min-width: 960px) {
+  /* line 1116, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+  .hidden-lg-up {
+    display: none !important;
+  }
+}
+
+@media (max-width: 1279px) {
+  /* line 1122, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+  .hidden-lg-down {
+    display: none !important;
+  }
+}
+
+@media (min-width: 1280px) {
+  /* line 1128, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+  .hidden-xl-up {
+    display: none !important;
+  }
+}
+
+/* line 1133, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+.hidden-xl-down {
+  display: none !important;
+}
+
+/* line 1137, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+.visible-print-block {
+  display: none !important;
+}
+
+@media print {
+  /* line 1142, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+  .visible-print-block {
+    display: block !important;
+  }
+}
+
+/* line 1147, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+.visible-print-inline {
+  display: none !important;
+}
+
+@media print {
+  /* line 1152, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+  .visible-print-inline {
+    display: inline !important;
+  }
+}
+
+/* line 1157, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+.visible-print-inline-block {
+  display: none !important;
+}
+
+@media print {
+  /* line 1162, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+  .visible-print-inline-block {
+    display: inline-block !important;
+  }
+}
+
+@media print {
+  /* line 1168, /Users/steve/Desktop/wojodesign-puphpet/wojodesign.com/public/assets/src/scss/main.scss */
+  .hidden-print {
+    display: none !important;
+  }
+}
+
+
+.big_widget_wrapper.big_widget_wrapper_expand {
+  margin:auto;
+}
